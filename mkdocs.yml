@@ -1,0 +1,74 @@
+site_name: Macaca Nigra Language
+site_url: https://macacanigra-pl.github.io/macacanigra-pl/
+site_description: Macaca Nigra Programming Language
+copyright: Copyright &copy; 2020 - 2025 macacanigra.pl
+
+# pip install mkdocs-material
+theme:
+  logo: assets/images/mnl_logo_1.svg
+  favicon: assets/images/mnl_logo_1.png
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.path
+    - navigation.top
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.instant.prefetch
+    - navigation.tracking
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - search.share
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: white
+      accent: cyan 
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: cyan
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to system preference
+
+
+nav:
+  - Home: "index.md"
+  - User Guide:
+      - Overview: "user-guide/overview.md"
+      - Getting Started: "user-guide/getting-started.md"
+      - Program Visualization: "user-guide/program-visualization.md"
+      - Transpiler: "user-guide/transpiler.md"
+      - Examples: "user-guide/examples.md"
+  - The MnL: "https://macacanigra-pl.github.io/mnl/"
+  - About: "about.md"
+
+plugins:
+  - search
+  - offline
+
+extra:
+  homepage: https://macacanigra-pl.github.io/mnl/
+  
+  # cookie consent 
+  # consent:
+  #   title: Cookie consent
+  #   description: >- 
+  #     We use cookies to recognize your repeated visits and preferences, as well
+  #     as to measure the effectiveness of our documentation and whether users
+  #     find what they're searching for. With your consent, you're helping us to
+  #     make our documentation better.
