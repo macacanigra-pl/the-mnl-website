@@ -1,21 +1,30 @@
+---
+tags:
+  - Transpiler
+  - YAKI
+---
+
 ## Choose the target
 ![transpiler-window](./assets/images/transpiler_window.png)
 
 <!-- ![transpiler-block](./assets/images/transpiler_block_source.png) -->
 <img src="./assets/images/transpiler_block_source.png" width="30%" height="30%">
 
-### Formalization
-![sum-list](./assets/images/transpiler.png)
+### Target
 
-### SML
+=== "Formalization"
 
-```SML
-fun f_identity (a) = a
-```
+  ![sum-list](./assets/images/transpiler.png)
 
-### Scala
+=== "SML"
 
-```Scala
-def f_identity [B] (a : B) : B = a
-```
+  ```sml title="identity_function.sml" linenums="1"
+  fun f_identity (a) = a
+  ```
+
+=== "Scala"
+
+  ```scala title="identity_function.scala" linenums="1"
+  def f_identity [B] (a : B) : B = a
+  ```
 
