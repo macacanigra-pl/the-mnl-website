@@ -1,6 +1,7 @@
 site_name: Macaca Nigra Language
 site_url: https://macacanigra-pl.github.io/macacanigra-pl/
 site_description: Macaca Nigra Programming Language
+repo_name: https://macacanigra-pl.github.io/mnl
 copyright: Copyright &copy; 2020 - 2025 macacanigra.pl
 
 # pip install mkdocs-material
@@ -14,6 +15,7 @@ theme:
   features:
     - navigation.tabs
     - navigation.tabs.sticky
+    # only for insider
     - navigation.path
     - navigation.top
     - navigation.instant
@@ -21,12 +23,14 @@ theme:
     - navigation.instant.prefetch
     - navigation.instant.preview
     - navigation.tracking
+    # not compatible with navigation.expand
+    - navigation.prune
+    # - toc.follow
+    # not compatible with navigation.indexes
     # - toc.integrate
     - search.suggest
     - search.highlight
     - search.share
-  
-  custom_dir: overrides/
 
   palette:
     - media: "(prefers-color-scheme)"
@@ -55,7 +59,7 @@ theme:
 
 nav:
   - Home: "index.md"
-  - User Guide:
+  - Learn MnL:
       - Overview: "user-guide/overview.md"
       - Getting Started: "user-guide/getting-started.md"
       - Program Visualization: "user-guide/program-visualization.md"
@@ -81,7 +85,6 @@ markdown_extensions:
       anchor_linenums: true
       line_spans: __spand
       pygments_lang_class: true 
-
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
