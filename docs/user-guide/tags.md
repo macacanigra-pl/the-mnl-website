@@ -1,3 +1,8 @@
+---
+hide:
+  - navigation
+---
+
 # Tags
 
-<!-- material/tags -->
+<!-- material/tags { scope: true } -->

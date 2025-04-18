@@ -2,16 +2,37 @@ site_name: Macaca Nigra Language
 site_url: https://macacanigra-pl.github.io/macacanigra-pl/
 site_description: Macaca Nigra Programming Language
 repo_name: https://macacanigra-pl.github.io/mnl
-copyright: Copyright &copy; 2020 - 2025 macacanigra.pl
+copyright: Copyright &copy; 2020 - 2025 MnL
 
 # pip install mkdocs-material
 theme:
   name: material
+  custom_dir: overrides
   font:
     text: Merriweather Sans
     code: Red Hat Mono
   logo: assets/images/mnl_logo_1.svg
   favicon: assets/images/mnl_logo_1.png
+  icon:
+    tag:
+      default: material/tag
+      html: fontawesome/brands/html5
+      js: fontawesome/brands/js
+      css:  fontawesome/brands/css3
+    admonition:
+      note: octicons/tag-16
+      abstract: octicons/checklist-16
+      info: octicons/info-16
+      tip: octicons/squirrel-16
+      success: octicons/check-16
+      question: octicons/question-16
+      warning: octicons/alert-16
+      failure: octicons/x-circle-16
+      danger: octicons/zap-16
+      bug: octicons/bug-16
+      example: octicons/beaker-16
+      quote: octicons/quote-16
+
   features:
     - navigation.tabs
     - navigation.tabs.sticky
@@ -31,6 +52,12 @@ theme:
     - search.suggest
     - search.highlight
     - search.share
+    # user can close the announcement
+    # - announce.dismiss
+    - content.tabs.link
+    - content.code.copy
+    - content.code.select
+    - content.code.annotate
 
   palette:
     - media: "(prefers-color-scheme)"
@@ -64,33 +91,62 @@ nav:
       - Getting Started: "user-guide/getting-started.md"
       - Program Visualization: "user-guide/program-visualization.md"
       - Transpiler: "user-guide/transpiler.md"
-      - Learning the PL : "user-guide/examples.md"
+      - Learning the PL :
+          - List: "user-guide/learn-pl/list.md"
+          - Tuple: "user-guide/learn-pl/tuple.md"
+          - Record: "user-guide/learn-pl/record.md"
+          - Higher order Function: "user-guide/learn-pl/hof.md"
+          - Type Inference: "user-guide/learn-pl/type-inference.md"
   - The MnL: "https://macacanigra-pl.github.io/mnl/"
   - Tags: "user-guide/tags.md"
   - About: "about.md"
-  - Feedback: "https://google.com"
+  - Survey: "https://google.com"
 
 plugins:
   - search
   - offline
+  # - social
   - tags:
       tags_file: user-guide/tags.md"
 
 extra:
   homepage: https://macacanigra-pl.github.io/mnl/
+  # remove annotation of mkdocs material from footer
+  generator: false
+  tags: 
+    HTML5: html 
+    JavaScript: js 
+    CSS: css
 
 markdown_extensions:
   - attr_list
+  - admonition
+  - pymdownx.details  
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.magiclink
+  - md_in_html
+  - pymdownx.superfences
+  - tables
+  - pymdownx.blocks.definition
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - toc:
+      permalink: true
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __spand
+      use_pygments: true
       pygments_lang_class: true 
-  - pymdownx.inlinehilite
-  - pymdownx.snippets
-  - pymdownx.superfences
+      linenums_style: pymdownx-inline
   - pymdownx.tabbed:
       alternate_style: true
-
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
   # cookie consent 
   # consent:
