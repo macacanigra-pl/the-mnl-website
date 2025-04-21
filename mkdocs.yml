@@ -90,6 +90,7 @@ nav:
   - Learn MnL:
       - Overview: "user-guide/overview.md"
       - Getting Started: "user-guide/getting-started.md"
+      - Type Suggestion: "user-guide/type-suggestion.md"
       - Program Visualization: "user-guide/program-visualization.md"
       - Transpiler: "user-guide/transpiler.md"
       - List: "user-guide/list.md"
@@ -97,7 +98,6 @@ nav:
       - Record: "user-guide/record.md"
       - Higher order Function: "user-guide/hof.md"
       - Type Inference: "user-guide/type-inference.md"
-      - Parametric Polymorphism: "user-guide/plc-using-mnl.md"
   - Code with MnL: "https://macacanigra-pl.github.io/mnl/"
   - Tags: "user-guide/tags.md"
   - About: "about.md"
