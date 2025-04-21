@@ -19,21 +19,20 @@ hide:
 
     [:octicons-arrow-right-24: Easy to learn](#)
 
--   :material-clock-fast:{ .lg .middle } __Reactive Environment__
+-   :material-sync:{ .lg .middle } __Reactive Environment__
 
     ---
 
     [:octicons-arrow-right-24: Action and Reaction](#)
 
--   :fontawesome-brands-markdown:{ .lg .middle } __Type and Color__
+-   :material-shape-plus-outline:{ .lg .middle } __Shape and Color__
 
     ---
 
-    
 
     [:octicons-arrow-right-24: Reference](#)
 
--   :material-format-font:{ .lg .middle } __Type Inference__
+-   :simple-iconfinder:{ .lg .middle } __Type Inference__
 
     ---
 
@@ -41,7 +40,7 @@ hide:
 
     [:octicons-arrow-right-24: Customization](#)
 
--   :material-scale-balance:{ .lg .middle } __Program Visualization__
+-   :material-puzzle-outline:{ .lg .middle } __Program Visualization__
 
     ---
 

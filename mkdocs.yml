@@ -2,6 +2,7 @@ site_name: Macaca Nigra Language
 site_url: https://macacanigra-pl.github.io/macacanigra-pl/
 site_description: Macaca Nigra Programming Language
 repo_name: https://macacanigra-pl.github.io/mnl
+site_author: MnL
 copyright: Copyright &copy; 2020 - 2025 MnL
 
 # pip install mkdocs-material
@@ -85,25 +86,27 @@ theme:
 
 
 nav:
-  - Home: "index.md"
+  - Home: "README.md"
   - Learn MnL:
       - Overview: "user-guide/overview.md"
       - Getting Started: "user-guide/getting-started.md"
       - Program Visualization: "user-guide/program-visualization.md"
       - Transpiler: "user-guide/transpiler.md"
-      - Learning the PL :
-          - List: "user-guide/learn-pl/list.md"
-          - Tuple: "user-guide/learn-pl/tuple.md"
-          - Record: "user-guide/learn-pl/record.md"
-          - Higher order Function: "user-guide/learn-pl/hof.md"
-          - Type Inference: "user-guide/learn-pl/type-inference.md"
-  - The MnL: "https://macacanigra-pl.github.io/mnl/"
+      - List: "user-guide/list.md"
+      - Tuple: "user-guide/tuple.md"
+      - Record: "user-guide/record.md"
+      - Higher order Function: "user-guide/hof.md"
+      - Type Inference: "user-guide/type-inference.md"
+      - Parametric Polymorphism: "user-guide/plc-using-mnl.md"
+  - Code with MnL: "https://macacanigra-pl.github.io/mnl/"
   - Tags: "user-guide/tags.md"
   - About: "about.md"
   - Survey: "https://google.com"
 
 plugins:
-  - search
+  - search:
+      min_search_length: 3
+      indexing: "full"
   - offline
   # - social
   - tags:
@@ -112,7 +115,7 @@ plugins:
 extra:
   homepage: https://macacanigra-pl.github.io/mnl/
   # remove annotation of mkdocs material from footer
-  generator: false
+  generator: true
   tags: 
     HTML5: html 
     JavaScript: js 

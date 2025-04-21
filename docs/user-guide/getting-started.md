@@ -1,7 +1,4 @@
----
-  # icon: material/emoticon-happy
----
+## Just Drag, Drop, and Attach the block
 
-## Type Suggesion
-![type-suggestion](./assets/images/type_suggestion_1.png)
-![type-suggestion](./assets/images/type_suggestion_2.png)
+![workspace](assets/images/drag_light.png#only-light)
+![workspace](assets/images/drag_dark.png#only-dark)
