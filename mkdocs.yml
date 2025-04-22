@@ -98,7 +98,7 @@ nav:
       - Record: "user-guide/record.md"
       - Higher order Function: "user-guide/hof.md"
       - Type Inference: "user-guide/type-inference.md"
-  - Code with MnL: "https://macacanigra-pl.github.io/mnl/"
+  - The MnL: "https://macacanigra-pl.github.io/mnl/"
   - Tags: "user-guide/tags.md"
   - About: "about.md"
   - Survey: "https://google.com"

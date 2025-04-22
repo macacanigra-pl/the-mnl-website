@@ -3,49 +3,62 @@ hide:
   - navigation
   - toc
   - path
-
 ---
 
 # Welcome
-![f-identity](assets/images/f_identity_white.png#only-light)
-![f-identity](assets/images/f_identity_dark.png#only-dark)
 
+<figure markdown="span">
+
+![f-identity](assets/images/welcome_light.png#only-light)
+![f-identity](assets/images/welcome_dark.png#only-dark)
+
+</figure>
 
 <div class="grid cards" markdown>
 
 -   :material-clock-fast:{ .lg .middle } __Easy to Learn!__
 
     ---
-
-    [:octicons-arrow-right-24: Easy to learn](#)
+    :octicons-arrow-right-24: Just drag 'n drop, then attach or detach the block.
 
 -   :material-sync:{ .lg .middle } __Reactive Environment__
 
     ---
-
-    [:octicons-arrow-right-24: Action and Reaction](#)
+    :octicons-arrow-right-24: Reactive means action and reaction. When user makes any changes , MnL will response it with the result of evaluation (eager evaluation) or error if any.
 
 -   :material-shape-plus-outline:{ .lg .middle } __Shape and Color__
 
     ---
-
-
-    [:octicons-arrow-right-24: Reference](#)
+    :octicons-arrow-right-24: Helping the user by using visual language capabilities: shape and colour. Shape will represent the grammar and colour for the value type.
 
 -   :simple-iconfinder:{ .lg .middle } __Type Inference__
 
     ---
 
-    Type Inference
-
-    [:octicons-arrow-right-24: Customization](#)
+    :octicons-arrow-right-24: The user does not need to declare the type explicitly! Let MnL do it for user (implicit typing).
 
 -   :material-puzzle-outline:{ .lg .middle } __Program Visualization__
 
     ---
 
-    Program Visualization [GitHub]
+    :octicons-arrow-right-24: Show the beta reduction and the function value visually.
 
-    [:octicons-arrow-right-24: License](#)
+-   :material-function-variant:{ .lg .middle } __It's a Functional PL__
+
+    ---
+
+    :octicons-arrow-right-24: MNL is a pure block-based functional programming language.
+
+-   :material-translate-variant:{ .lg .middle } __YAKI__
+
+    ---
+
+    :octicons-arrow-right-24: Currently MNL has a Yet Another [K/C]Compiler Interface a.k.a YAKI as a transpiler from block to text based language such as SML or Scala.
+
+-   :simple-compilerexplorer:{ .lg .middle } __Typing Rule__
+
+    ---
+
+    :octicons-arrow-right-24: Another YAKI capability is writing the typing derivation of MNL.
 
 </div>
