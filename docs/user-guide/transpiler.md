@@ -14,7 +14,7 @@ tags:
 
 ## Target
 
-=== "Formalization"
+=== "Typing Derivation"
 
     ![sum-list](./assets/images/transpiler.png)
 

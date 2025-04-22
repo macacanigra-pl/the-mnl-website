@@ -61,4 +61,10 @@ hide:
 
     :octicons-arrow-right-24: Another YAKI capability is writing the typing derivation of MNL.
 
+-   :speech_balloon:{ .lg .middle } __Understandable__
+
+    ---
+
+    :octicons-arrow-right-24: In MNL, the terminal (keyword) is a whole word in English, not an abbreviation.
+
 </div>
