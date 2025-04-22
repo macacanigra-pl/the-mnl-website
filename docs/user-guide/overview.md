@@ -46,3 +46,5 @@ The MnL workspace is devided into three parts: Menu, Toolbox and Top-level block
 ![workspace](assets/images/toolbox_light.png#only-light)
 ![workspace](assets/images/toolbox_dark.png#only-dark)
 
+
+## Block Structure

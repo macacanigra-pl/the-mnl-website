@@ -61,7 +61,7 @@ hide:
 
     :octicons-arrow-right-24: Another YAKI capability is writing the typing derivation of MNL.
 
--   :speech_balloon:{ .lg .middle } __Understandable__
+-   :material-chat-processing-outline:{ .lg .middle } __Understandable__
 
     ---
 
