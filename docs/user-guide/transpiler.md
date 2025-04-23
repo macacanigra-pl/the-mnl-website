@@ -6,17 +6,17 @@ tags:
 
 
 ## Choose the target
-<!-- ![transpiler-window](./assets/images/transpiler_window.png) -->
-<img src="./assets/images/transpiler_window.png" width="40%" height="40%">
+![transpiler-window](./assets/images/transpiler_window.png)
+<!-- <img src="./assets/images/transpiler_window.png" width="25%" height="25%"> -->
 
-<!-- ![transpiler-block](./assets/images/transpiler_block_source.png) -->
-<img src="./assets/images/transpiler_block_source.png" width="30%" height="30%">
+![transpiler-block](./assets/images/transpiler_block_source.png)
+<!-- <img src="./assets/images/transpiler_block_source.png" width="30%" height="30%"> -->
 
 ## Target
 
 === "Typing Derivation"
 
-    ![sum-list](./assets/images/transpiler.png)
+    ![sum-list](./assets/images/typing_derivation.png)
 
 === "SML"
 

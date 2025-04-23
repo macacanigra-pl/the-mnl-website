@@ -5,3 +5,7 @@
 
 ## On the same level vs the parent
 ![type-suggestion](./assets/images/type_suggestion_2.png)
+![type-suggestion](./assets/images/type_suggestion_3.png)
+![type-suggestion](./assets/images/type_suggestion_4.png)
+![type-suggestion](./assets/images/type_suggestion_5.png)
+![type-suggestion](./assets/images/type_suggestion_6.png)

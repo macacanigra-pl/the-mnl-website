@@ -47,4 +47,21 @@ The MnL workspace is devided into three parts: Menu, Toolbox and Top-level block
 ![workspace](assets/images/toolbox_dark.png#only-dark)
 
 
-## Block Structure
+## Block Anatomy
+![workspace](assets/images/block_anatomy_complete.png)
+![workspace](assets/images/block_anatomy_1.png)
+
+ 
+### Add/Remove Input
+![workspace](assets/images/add_input_dark.png#only-dark)
+![workspace](assets/images/add_input_light.png#only-light)
+
+![workspace](assets/images/plus_minus_button.png)
+
+### Block Info
+ ![workspace](assets/images/type_n_value_info_dark.png#only-dark)
+ ![workspace](assets/images/type_n_value_info_light.png#only-light)
+
+### Debugger
+ ![workspace](assets/images/debuger_dark.png#only-dark)
+ ![workspace](assets/images/debuger_light.png#only-light)
