@@ -24,7 +24,7 @@ hide:
 -   :material-sync:{ .lg .middle } __Reactive Environment__
 
     ---
-    :octicons-arrow-right-24: Reactive means action and reaction. When user makes any changes , MnL will response it with the result of evaluation (eager evaluation) or error if any.
+    :octicons-arrow-right-24: Reactive means action and reaction. When user makes any changes , MnL will response it with the result of evaluation or error if any.
 
 -   :material-shape-plus-outline:{ .lg .middle } __Shape and Color__
 

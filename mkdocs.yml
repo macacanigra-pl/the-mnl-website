@@ -93,6 +93,7 @@ nav:
       - Type Suggestion: "user-guide/type-suggestion.md"
       - Program Visualization: "user-guide/program-visualization.md"
       - Transpiler: "user-guide/transpiler.md"
+      - Function: "user-guide/function.md"
       - List: "user-guide/list.md"
       - Tuple: "user-guide/tuple.md"
       - Record: "user-guide/record.md"
@@ -115,7 +116,7 @@ plugins:
 extra:
   homepage: https://macacanigra-pl.github.io/mnl/
   # remove annotation of mkdocs material from footer
-  generator: true
+  generator: false
   tags: 
     HTML5: html 
     JavaScript: js 
