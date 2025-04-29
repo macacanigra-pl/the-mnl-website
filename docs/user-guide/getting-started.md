@@ -10,13 +10,13 @@
 === "SML"
 
     ``` sml linenums="1"
-    val variable = "Hello World!"
+    val variable_in_MNL = "MNL is easy to learn"
     ```
 
 === "Scala"
 
     ``` scala linenums="1"
-    val variable = "Hello World!"
+    val variable_in_MNL = "MNL is easy to learn"
     ```
 
 ## Operator
@@ -27,13 +27,27 @@
 === "SML"
 
     ``` sml linenums="1"
-    val unary_operator = (not true)
+    (not false)
     ```
 
 === "Scala"
 
     ``` scala linenums="1"
-    val unary_operator = (!true)
+    (!false)
+    ```
+
+![workspace](assets/images/unary_operator_boolean_binding.png){title="Boolean Operator Not - binding"}
+
+=== "SML"
+
+    ``` sml linenums="1"
+    val unary_operator = (not false)
+    ```
+
+=== "Scala"
+
+    ``` scala linenums="1"
+    val unary_operator = (!false)
     ```
 
 ### Binary
@@ -42,13 +56,29 @@
 === "SML"
 
     ``` sml linenums="1"
-    val arithmetic = (111 + 222)
+    (111 + 222)
     ```
 
 === "Scala"
 
     ``` scala linenums="1"
-    val arithmetic = (111 + 222)
+    (111 + 222)
+    ```
+
+![workspace](assets/images/binary_operator_binding.png){title="Arithmetic Operator - binding"}
+
+=== "SML"
+
+    ``` sml linenums="1"
+    fun increment (n) = (1 + n)
+    val three = increment(2)
+    ```
+
+=== "Scala"
+
+    ``` scala linenums="1"
+    def increment (n: Float) : Float = (1 + n)
+    val three = increment(2)
     ```
 
 
