@@ -24,7 +24,7 @@ hide:
 -   :material-sync:{ .lg .middle } __Reactive Environment__
 
     ---
-    :octicons-arrow-right-24: Reactive means action and reaction. When user makes any changes , MnL will response it with the result of evaluation or error if any.
+    :octicons-arrow-right-24: Reactive means action and reaction. When user makes any changes , MNL will response it with the result of evaluation or error if any.
 
 -   :material-shape-plus-outline:{ .lg .middle } __Shape and Color__
 
@@ -35,7 +35,7 @@ hide:
 
     ---
 
-    :octicons-arrow-right-24: The user does not need to declare the type explicitly! Let MnL do it for user (implicit typing).
+    :octicons-arrow-right-24: The user does not need to declare the type explicitly! Let MNL do it for user (implicit typing).
 
 -   :material-puzzle-outline:{ .lg .middle } __Program Visualization__
 
