@@ -18,11 +18,20 @@ There is a main block (1) acts as the parent block. The main block will hold dec
 Drag, drop, and attach the block
 ///
 
+## Declaration
 
-## Variable
+A declaration means binding a name to a value. There are two declaration blocks in MNL: variable and function.
+[The function block](function.md#the-function) is a simple model of binding a variable block with a lambda block.
 
-Creating a variable 
+### Variable
+
+Creating a complete variable block requires an identity block and an expression block. The example below shows how to give a `variable_in_MNL` name to the string "MNL is easy to learn". When you need the "MNL is easy to learn" value, access the bound variable by name `variable_in_MNL`.
+
 ![workspace](assets/images/variable_binding.png){title="Variable binding" loading=lazy }
+
+/// caption
+Variable binding
+///
 
 === "SML"
 
@@ -36,9 +45,22 @@ Creating a variable
     val variable_in_MNL = "MNL is easy to learn"
     ```
 
-## Operator
+## Expression
 
-### Unary
+Expression is a value. Every expression blocks have its value including operators, constants, and constructor.
+
+### Operator
+
+<div class="annotate" markdown>
+
+There are two types of primitive operators based on input: unary (1) and binary (2) operator.
+
+</div>
+
+1.  :man_raising_hand: Take one input.
+2.  :man_raising_hand: Take two input.
+
+#### Unary
 ![workspace](assets/images/unary_operator_boolean.png){title="Boolean Operator Not" loading=lazy }
 
 === "SML"
@@ -67,7 +89,7 @@ Creating a variable
     val unary_operator = (!false)
     ```
 
-### Binary
+#### Binary
 ![workspace](assets/images/binary_operator_arithmetic.png){title="Arithmetic Operator" loading=lazy }
 
 === "SML"
@@ -99,7 +121,7 @@ Creating a variable
     ```
 
 
-## Selection
+### Selection
 ![workspace](assets/images/selection.png){title="Selection" loading=lazy }
 
 === "SML"
@@ -125,7 +147,7 @@ Creating a variable
     ```
 
 
-## Sequence
+### Sequence
 ![workspace](assets/images/sequence_light.png#only-light){title="Sequence" loading=lazy }
 ![workspace](assets/images/sequence_dark.png#only-dark){title="Sequence" loading=lazy }
 
@@ -147,7 +169,7 @@ Creating a variable
       })()
     ```
 
-## Pattern Matching
+### Pattern Matching
 ![workspace](assets/images/pattern_matching.png){title="Pattern Matching" loading=lazy }
 
 === "SML"
@@ -176,7 +198,7 @@ Creating a variable
     val greetings = translator_good_morning("de")
     ```
 
-## Let-in
+### Let-in
 ![workspace](assets/images/let_in.png){title="Pattern Matching" loading=lazy }
 
 === "SML"
