@@ -86,7 +86,7 @@ theme:
 
 
 nav:
-  - Home: "README.md"
+  - Home: "index.md"
   - Learn MNL:
       - Overview: "user-guide/overview.md"
       - Getting Started: "user-guide/getting-started.md"
