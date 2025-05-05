@@ -1,11 +1,28 @@
+# Getting Started
+
 ## Just Drag, Drop, and Attach the block
 
-![workspace](assets/images/drag_light.png#only-light)
-![workspace](assets/images/drag_dark.png#only-dark)
+<div class="annotate" markdown>
+
+To start constructing a program in MNL, drag a block from the toolbox to the playground area and attach it to another block.
+There is a main block (1) acts as the parent block. The main block will hold declaration block only.
+
+</div>
+
+1.  :man_raising_hand: The black block with MNL on the top.
+
+![workspace](assets/images/drag_light.png#only-light){title="Drag, drop, and attach the block" loading=lazy }
+![workspace](assets/images/drag_dark.png#only-dark){title="Drag, drop, and attach the block" loading=lazy }
+
+/// caption
+Drag, drop, and attach the block
+///
 
 
 ## Variable
-![workspace](assets/images/variable_binding.png){title="Variable binding"}
+
+Creating a variable 
+![workspace](assets/images/variable_binding.png){title="Variable binding" loading=lazy }
 
 === "SML"
 
@@ -22,7 +39,7 @@
 ## Operator
 
 ### Unary
-![workspace](assets/images/unary_operator_boolean.png){title="Boolean Operator Not"}
+![workspace](assets/images/unary_operator_boolean.png){title="Boolean Operator Not" loading=lazy }
 
 === "SML"
 
@@ -36,7 +53,7 @@
     (!false)
     ```
 
-![workspace](assets/images/unary_operator_boolean_binding.png){title="Boolean Operator Not - binding"}
+![workspace](assets/images/unary_operator_boolean_binding.png){title="Boolean Operator Not - binding" loading=lazy }
 
 === "SML"
 
@@ -51,7 +68,7 @@
     ```
 
 ### Binary
-![workspace](assets/images/binary_operator_arithmetic.png){title="Arithmetic Operator"}
+![workspace](assets/images/binary_operator_arithmetic.png){title="Arithmetic Operator" loading=lazy }
 
 === "SML"
 
@@ -65,7 +82,7 @@
     (111 + 222)
     ```
 
-![workspace](assets/images/binary_operator_binding.png){title="Arithmetic Operator - binding"}
+![workspace](assets/images/binary_operator_binding.png){title="Arithmetic Operator - binding" loading=lazy }
 
 === "SML"
 
@@ -83,7 +100,7 @@
 
 
 ## Selection
-![workspace](assets/images/selection.png){title="Selection"}
+![workspace](assets/images/selection.png){title="Selection" loading=lazy }
 
 === "SML"
 
@@ -109,8 +126,8 @@
 
 
 ## Sequence
-![workspace](assets/images/sequence_light.png#only-light)
-![workspace](assets/images/sequence_dark.png#only-dark)
+![workspace](assets/images/sequence_light.png#only-light){title="Sequence" loading=lazy }
+![workspace](assets/images/sequence_dark.png#only-dark){title="Sequence" loading=lazy }
 
 === "SML"
 
@@ -131,7 +148,7 @@
     ```
 
 ## Pattern Matching
-![workspace](assets/images/pattern_matching.png){title="Pattern Matching"}
+![workspace](assets/images/pattern_matching.png){title="Pattern Matching" loading=lazy }
 
 === "SML"
 
@@ -160,7 +177,7 @@
     ```
 
 ## Let-in
-![workspace](assets/images/let_in.png){title="Pattern Matching"}
+![workspace](assets/images/let_in.png){title="Pattern Matching" loading=lazy }
 
 === "SML"
 

@@ -1,3 +1,4 @@
+# Overview
 
 ## Workspace
 
@@ -5,6 +6,10 @@ The MnL workspace is devided into three parts: Menu, Toolbox and Top-level block
 
 ![workspace](assets/images/workspace_light.png#only-light)
 ![workspace](assets/images/workspace_dark.png#only-dark)
+
+/// caption
+Workspace
+///
 
 ### Menu
 
@@ -43,25 +48,84 @@ The MnL workspace is devided into three parts: Menu, Toolbox and Top-level block
 
 
 ## Toolbox
+
+Toolbox groups the blocks based on the language grammar. To show the block in the category, click the category. There are seven categories on the top; the other seven below are part of the expression. The user can also search the block from the search box located at the bottom of the toolbox.
+
 ![workspace](assets/images/toolbox_light.png#only-light)
 ![workspace](assets/images/toolbox_dark.png#only-dark)
 
+/// caption
+Toolbox
+///
 
 ## Block Anatomy
 ![workspace](assets/images/block_anatomy_complete.png)
+
+/// caption
+Horizontal input/output block
+///
+
 ![workspace](assets/images/block_anatomy_1.png)
 
+/// caption
+Vertical input/output + horizontal input block
+///
+
+:material-numeric-1-circle: `Gear Icon`: show the add/remove block input toolbox.
+
+:material-numeric-2-circle: `Exclamation Mark Icon`: Debugger, shows the error message.
+
+:material-numeric-3-circle: `Question Mark Icon`: The Info, shows the block information: block category, type, and value.
+
+:material-numeric-4-circle: `Suggestion Box Color`: shows the colors of blocks that can be connected.
+
+:material-numeric-5-circle: `The Input Notch`: shows the shape of the required output notch to attach to the block.
+
+:material-numeric-6-circle: `The Output Notch`: used as a hook to another block.
+
  
-### Add/Remove Input
+### Add/Remove Input 
+
+The number of input block on some blocks can be adjust dynamically using add/remove toolbox or add/remove icon.
+
 ![workspace](assets/images/add_input_dark.png#only-dark)
 ![workspace](assets/images/add_input_light.png#only-light)
 
+/// caption
+Add/remove input toolbox
+///
+
 ![workspace](assets/images/plus_minus_button.png)
 
+/// caption
+Add/remove input using icon
+///
+
 ### Block Info
- ![workspace](assets/images/type_n_value_info_dark.png#only-dark)
- ![workspace](assets/images/type_n_value_info_light.png#only-light)
+
+The Info shows block information such as block category based on the grammar, term type, and value. [tester](getting-started.md#just-drag-drop-and-attach-the-block)
+
+![workspace](assets/images/type_n_value_info_dark.png#only-dark)
+![workspace](assets/images/type_n_value_info_light.png#only-light)
+
+/// caption
+The Info
+///
 
 ### Debugger
- ![workspace](assets/images/debuger_dark.png#only-dark)
- ![workspace](assets/images/debuger_light.png#only-light)
+
+<div class="annotate" markdown>
+
+The debugger shows the requirement that must be fulfilled to make a complete block (1), or the term-type error.
+
+</div>
+
+1.  :man_raising_hand: A complete block is a block with all requirements fulfilled, ex.: The Info.
+
+![workspace](assets/images/debuger_dark.png#only-dark)
+![workspace](assets/images/debuger_light.png#only-light)
+
+/// caption
+Debugger
+///
+

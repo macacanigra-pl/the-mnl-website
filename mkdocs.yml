@@ -15,6 +15,7 @@ theme:
   logo: assets/images/mnl_logo_1.svg
   favicon: assets/images/mnl_logo_1.png
   icon:
+    annotation: material/plus-circle-outline
     tag:
       default: material/tag
       html: fontawesome/brands/html5
@@ -59,6 +60,7 @@ theme:
     - content.code.copy
     - content.code.select
     - content.code.annotate
+    - content.tooltips
 
   palette:
     - media: "(prefers-color-scheme)"
@@ -100,7 +102,7 @@ nav:
       - Higher order Function: "user-guide/hof.md"
       - Type Inference: "user-guide/type-inference.md"
   - The MNL: "https://macacanigra-pl.github.io/mnl/"
-  - Tags: "user-guide/tags.md"
+  # - Tags: "user-guide/tags.md"
   - About: "about.md"
   - Survey: "https://google.com"
 
@@ -133,6 +135,7 @@ markdown_extensions:
   - pymdownx.superfences
   - tables
   - pymdownx.blocks.definition
+  - pymdownx.blocks.caption
   - pymdownx.critic
   - pymdownx.caret
   - pymdownx.keys
