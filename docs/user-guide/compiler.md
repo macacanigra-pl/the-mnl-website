@@ -1,9 +1,4 @@
----
-tags:
-  - Transpiler
-  - YAKI
----
-
+# The Compiler
 
 ## Choose the target
 ![transpiler-window](./assets/images/transpiler_window.png)
