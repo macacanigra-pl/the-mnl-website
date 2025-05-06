@@ -102,7 +102,6 @@ nav:
       - Higher order Function: "user-guide/hof.md"
       - Type Inference: "user-guide/type-inference.md"
   - The MNL: "https://macacanigra-pl.github.io/mnl/"
-  # - Tags: "user-guide/tags.md"
   - About: "about.md"
   - Survey: "https://google.com"
 
