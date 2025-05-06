@@ -58,10 +58,14 @@ There are two types of primitive operators based on input: unary (1) and binary 
 </div>
 
 1.  :man_raising_hand: Take one input.
-2.  :man_raising_hand: Take two input.
+2.  :man_raising_hand: Take two inputs.
 
 #### Unary
 ![workspace](assets/images/unary_operator_boolean.png){title="Boolean Operator Not" loading=lazy }
+
+/// caption
+Boolean Operator Not
+///
 
 === "SML"
 
@@ -76,6 +80,10 @@ There are two types of primitive operators based on input: unary (1) and binary 
     ```
 
 ![workspace](assets/images/unary_operator_boolean_binding.png){title="Boolean Operator Not - binding" loading=lazy }
+
+/// caption
+"Boolean Operator Not - binding
+///
 
 === "SML"
 
@@ -92,6 +100,10 @@ There are two types of primitive operators based on input: unary (1) and binary 
 #### Binary
 ![workspace](assets/images/binary_operator_arithmetic.png){title="Arithmetic Operator" loading=lazy }
 
+/// caption
+Arithmetic Operator
+///
+
 === "SML"
 
     ``` sml linenums="1"
@@ -105,6 +117,10 @@ There are two types of primitive operators based on input: unary (1) and binary 
     ```
 
 ![workspace](assets/images/binary_operator_binding.png){title="Arithmetic Operator - binding" loading=lazy }
+
+/// caption
+Arithmetic Operator - binding
+///
 
 === "SML"
 
@@ -122,11 +138,18 @@ There are two types of primitive operators based on input: unary (1) and binary 
 
 
 ### Selection
+
 ![workspace](assets/images/selection.png){title="Selection" loading=lazy }
+
+/// caption
+Selection
+///
 
 === "SML"
 
     ``` sml linenums="1"
+    (* SML does not support type inference for a tuple as a parameter. 
+    Other ML languages may support the syntax below. *)
     fun the_greater (pair) = if ((#1 pair) < (#2 pair))
       then
         (#2 pair)
@@ -138,18 +161,25 @@ There are two types of primitive operators based on input: unary (1) and binary 
 === "Scala"
 
     ``` scala linenums="1"
-    def the_greater (pair: (Float, Float)) : Float = if ((pair(1)) < (pair(2)))
+    def the_greater (pair: (Float, Float)) : Float = if ((pair(0)) < (pair(1)))
       then
-        (pair(2))
-      else
         (pair(1))
+      else
+        (pair(0))
     val two_or_three = the_greater((2, 3))
     ```
 
 
 ### Sequence
+
+A sequence is a collection of expressions that are evaluated sequentially. The last expression is the type and value of a sequence block.
+
 ![workspace](assets/images/sequence_light.png#only-light){title="Sequence" loading=lazy }
 ![workspace](assets/images/sequence_dark.png#only-dark){title="Sequence" loading=lazy }
+
+/// caption
+Sequence
+///
 
 === "SML"
 
@@ -170,7 +200,12 @@ There are two types of primitive operators based on input: unary (1) and binary 
     ```
 
 ### Pattern Matching
+
 ![workspace](assets/images/pattern_matching.png){title="Pattern Matching" loading=lazy }
+
+/// caption
+Pattern Matching
+///
 
 === "SML"
 
@@ -199,7 +234,14 @@ There are two types of primitive operators based on input: unary (1) and binary 
     ```
 
 ### Let-in
-![workspace](assets/images/let_in.png){title="Pattern Matching" loading=lazy }
+
+Let-in is a local binding of declaration(s) in expression.
+
+![workspace](assets/images/let_in.png){title="Let-In" loading=lazy }
+
+/// caption
+Let-in
+///
 
 === "SML"
 
