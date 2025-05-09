@@ -8,7 +8,7 @@ The MnL workspace is devided into three parts: Menu, Toolbox and Top-level block
 ![workspace](assets/images/workspace_dark.png#only-dark)
 
 /// caption
-Workspace
+Fig. 1: Workspace
 ///
 
 ### Menu
@@ -55,20 +55,20 @@ Toolbox groups the blocks based on the language grammar. To show the block in th
 ![workspace](assets/images/toolbox_dark.png#only-dark)
 
 /// caption
-Toolbox
+Fig. 2: Toolbox
 ///
 
 ## Block Anatomy
 ![workspace](assets/images/block_anatomy_complete.png)
 
 /// caption
-Horizontal input/output block
+Fig. 3: Horizontal input/output block
 ///
 
 ![workspace](assets/images/block_anatomy_1.png)
 
 /// caption
-Vertical input/output + horizontal input block
+Fig. 4: Vertical input/output + horizontal input block
 ///
 
 :material-numeric-1-circle: `Gear Icon`: show the add/remove block input toolbox.
@@ -92,13 +92,13 @@ The number of input block on some blocks can be adjust dynamically using add/rem
 ![workspace](assets/images/add_input_light.png#only-light)
 
 /// caption
-Add/remove input toolbox
+Fig. 5: Add/remove input toolbox
 ///
 
 ![workspace](assets/images/plus_minus_button.png)
 
 /// caption
-Add/remove input using icon
+Fig. 6: Add/remove input using icon
 ///
 
 ### Block Info
@@ -109,7 +109,7 @@ The Info shows block information such as block category based on the grammar, te
 ![workspace](assets/images/type_n_value_info_light.png#only-light)
 
 /// caption
-The Info
+Fig. 7: The Info
 ///
 
 ### Debugger
@@ -126,6 +126,6 @@ The debugger shows the requirement that must be fulfilled to make a complete blo
 ![workspace](assets/images/debuger_light.png#only-light)
 
 /// caption
-Debugger
+Fig. 8: Debugger
 ///
 

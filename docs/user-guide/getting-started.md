@@ -15,7 +15,7 @@ There is a main block (1) acts as the parent block. The main block will hold dec
 ![workspace](assets/images/drag_dark.png#only-dark){title="Drag, drop, and attach the block" loading=lazy }
 
 /// caption
-Drag, drop, and attach the block
+Fig. 1: Drag, drop, and attach the block
 ///
 
 ## Declaration
@@ -30,7 +30,7 @@ Creating a complete variable block requires an identity block and an expression 
 ![workspace](assets/images/variable_binding.png){title="Variable binding" loading=lazy }
 
 /// caption
-Variable binding
+Fig. 2: Variable binding
 ///
 
 === "SML"
@@ -64,7 +64,7 @@ There are two types of primitive operators based on input: unary (1) and binary 
 ![workspace](assets/images/unary_operator_boolean.png){title="Boolean Operator Not" loading=lazy }
 
 /// caption
-Boolean Operator Not
+Fig. 3: Boolean Operator Not
 ///
 
 === "SML"
@@ -82,7 +82,7 @@ Boolean Operator Not
 ![workspace](assets/images/unary_operator_boolean_binding.png){title="Boolean Operator Not - binding" loading=lazy }
 
 /// caption
-"Boolean Operator Not - binding
+Fig. 4:Boolean Operator Not - binding
 ///
 
 === "SML"
@@ -101,7 +101,7 @@ Boolean Operator Not
 ![workspace](assets/images/binary_operator_arithmetic.png){title="Arithmetic Operator" loading=lazy }
 
 /// caption
-Arithmetic Operator
+Fig. 5: Arithmetic Operator
 ///
 
 === "SML"
@@ -119,7 +119,7 @@ Arithmetic Operator
 ![workspace](assets/images/binary_operator_binding.png){title="Arithmetic Operator - binding" loading=lazy }
 
 /// caption
-Arithmetic Operator - binding
+Fig. 6: Arithmetic Operator - binding
 ///
 
 === "SML"
@@ -142,7 +142,7 @@ Arithmetic Operator - binding
 ![workspace](assets/images/selection.png){title="Selection" loading=lazy }
 
 /// caption
-Selection
+Fig. 7: Selection
 ///
 
 === "SML"
@@ -178,7 +178,7 @@ A sequence is a collection of expressions that are evaluated sequentially. The l
 ![workspace](assets/images/sequence_dark.png#only-dark){title="Sequence" loading=lazy }
 
 /// caption
-Sequence
+Fig. 8: Sequence
 ///
 
 === "SML"
@@ -204,7 +204,7 @@ Sequence
 ![workspace](assets/images/pattern_matching.png){title="Pattern Matching" loading=lazy }
 
 /// caption
-Pattern Matching
+Fig. 9: Pattern Matching
 ///
 
 === "SML"
@@ -240,7 +240,7 @@ Let-in is a local binding of declaration(s) in expression.
 ![workspace](assets/images/let_in.png){title="Let-In" loading=lazy }
 
 /// caption
-Let-in
+Fig. 10: Let-in
 ///
 
 === "SML"

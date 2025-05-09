@@ -7,12 +7,12 @@ Initially, MNL will color the suggestion box with any type color (dark silver), 
 ![type-suggestion](./assets/images/type_suggestion_1.png){title="The incomplete block"}
 
 /// caption
-Suggestion type on the incomplete block
+Fig. 1: Suggestion type on the incomplete block
 ///
 
 <div class="annotate" markdown>
 
-However, when the block has some attached input (The partially completed block (1) ), MNL will construct the type based on the type constraint rule.
+However, when the block has some attached input (The partially completed block (1) ), MNL will construct the type based on the type constraint rule and update the suggestion box color. The example below shows the color of suggestion box on the input notch.
 
 </div>
 
@@ -27,12 +27,12 @@ However, when the block has some attached input (The partially completed block (
 ![type-suggestion](./assets/images/type_suggestion_3.png){title="The partially completed block"}
 
 /// caption
-The partially completed block
+Fig. 2: The partially completed block
 ///
 
 <div class="annotate" markdown>
 
-The user can check whether the input block complies with the typing rule on the completed block. For example, the completed block below, the input block attached to the otherwise input, does not comply with the typing rule. The typing rule required the block with the green color (2), but found the block with the yellow color (3).
+When the block is complete, user can check whether the input block complies with the typing rule. For example, the completed block below, the input block attached to the otherwise input, does not comply with the typing rule. The typing rule required the block with the green color (2), but found the block with the yellow color (3).
 
 </div>
 
@@ -43,7 +43,7 @@ The user can check whether the input block complies with the typing rule on the 
 ![type-suggestion](./assets/images/type_suggestion_4.png){title="The completed block"}
 
 /// caption
-The completed block
+Fig. 3: The completed block
 /// 
 
 When the type constraint builder can't find the type from the attached input block but the block has parent block, it will infer the type from the parent block.
@@ -57,7 +57,7 @@ When the type constraint builder can't find the type from the attached input blo
 ![type-suggestion](./assets/images/type_suggestion_7.png){title="Infer from the parent block"}
 
 /// caption
-Infer from the parent block
+Fig 4: Infer from the parent block
 ///
 
 The type constraint builder tries to infer the type from the attached input block first, then the parent block. 
@@ -65,5 +65,5 @@ The type constraint builder tries to infer the type from the attached input bloc
 ![type-suggestion](./assets/images/type_suggestion_6.png){title="From the attached block, then the parent block"}
 
 /// caption
-From the attached block, then the parent block
+Fig. 5: From the attached block, then the parent block
 ///

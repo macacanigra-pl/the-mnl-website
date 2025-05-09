@@ -1,8 +1,36 @@
 # The Function
 
-## Function
+A function is an expression with a function type and has a name (binding with a name). Lambda is an expression with a function type with no name (anonymous function).
+
+## The Lambda Block
+
+![workspace](assets/images/lambda.png){title="Lambda"}
+
+/// caption
+Fig. 1: The lambda block and binding.
+///
+
+=== "SML"
+
+    ``` sml linenums="1"
+    val mnl_say = fn (hello) => ("MNL: " ^ hello)
+    ```
+
+=== "Scala"
+
+    ``` scala linenums="1"
+    val mnl_say = (hello : String) => ("MNL: " + hello)
+    ```
+
+## The Function block
+
+MNL simplifies the construction by binding the lambda block with a name in one special declaration block called a function block.
 
 ![workspace](assets/images/first_class_function_1.png){title="First class function"}
+
+/// caption
+Fig. 2: The function block
+///
 
 === "SML"
 
@@ -18,27 +46,15 @@
     val say_it = greetings()
     ```
 
+## Example
 
-
-## Lambda
-
-![workspace](assets/images/lambda.png){title="Lambda"}
-
-=== "SML"
-
-    ``` sml linenums="1"
-    val mnl_say = fn (hello) => ("MNL: " ^ hello)
-    ```
-
-=== "Scala"
-
-    ``` scala linenums="1"
-    val mnl_say = (hello : String) => ("MNL: " + hello)
-    ```
-
-## Tail Function
+### Tail Function
 
 ![workspace](assets/images/tail_function.png){title="Tail function"}
+
+/// caption
+Fig. 3: The tail function
+///
 
 === "SML"
 
@@ -60,11 +76,17 @@
             (n * tail_function((n - 1)))
     ```
 
-## Take two or more parameters
+### Two or more parameters
 
-### Tuple
+The core language of MNL is the lambda calculus, which takes one parameter. However, MNL can take two or more inputs as parameters using a tuple or a record. The examples below show how to group two inputs as one parameter.
+
+#### Tuple
 
 ![workspace](assets/images/function_simul_two_params_tuple.png){title="tuple"}
+
+/// caption
+Fig. 4: A tuple as the function parameter
+///
 
 === "SML"
 
@@ -85,9 +107,13 @@
     val greetings_2 = greetings(("World!", "Hello "))
     ```
 
-### Record
+#### Record
 
 ![workspace](assets/images/function_simul_two_params_record.png){title="record"}
+
+/// caption
+Fig. 5: A record as the function parameter
+///
 
 === "SML"
 
