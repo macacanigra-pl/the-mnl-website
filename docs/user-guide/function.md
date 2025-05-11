@@ -1,10 +1,32 @@
 # The Function
 
-A function is an expression with a function type and has a name (binding with a name). Lambda is an expression with a function type with no name (anonymous function).
+A function is a mapping of one value to another. Some tasks or expressions are performed during the mapping process to produce the target value.
 
 ## The Lambda Block
 
-![workspace](assets/images/lambda.png){title="Lambda"}
+Lambda or anonymous function is a function without a name. Figures 1 to 4 show how to construct a lambda block.
+
+![workspace](assets/images/lambda_empty.png){title="Lambda"}
+
+/// caption
+Fig. 1: The lambda block
+///
+
+![workspace](assets/images/lamdba_unit.png){title="Lambda - unit to string"}
+
+/// caption
+Fig. 2: The lambda block with the empty parameter and return a string
+///
+
+![workspace](assets/images/lamdba_hello.png){title="Lambda - hello"}
+
+/// caption
+Fig. 1: The lambda block with a string input and produce a string output
+///
+
+Giving a name to the lambda block can be done by constructing a variable block with the expression block is a lambda block.
+
+![workspace](assets/images/lambda_binding.png){title="Lambda - binding"}
 
 /// caption
 Fig. 1: The lambda block and binding.
@@ -14,12 +36,14 @@ Fig. 1: The lambda block and binding.
 
     ``` sml linenums="1"
     val mnl_say = fn (hello) => ("MNL: " ^ hello)
+    val say_it = mnl_say("Hello there")
     ```
 
 === "Scala"
 
     ``` scala linenums="1"
     val mnl_say = (hello : String) => ("MNL: " + hello)
+    val say_it = mnl_say("Hello there")
     ```
 
 ## The Function block
