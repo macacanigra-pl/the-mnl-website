@@ -1,13 +1,22 @@
 # The Function
 
-A function is an expression with a function type and has a name (binding with a name). Lambda is an expression with a function type with no name (anonymous function).
+As in functional programming, MNL treats a function as a first-class citizen, meaning that it can be bound to names, passed as an argument, and returned from another function. There are two blocks of function in MNL: The function block and the lambda block. The lambda block is an expression block with a parameter and an expression, and the function block is a declarative block with an identifier (a name), a parameter, and an expression block.
+
 
 ## The Lambda Block
 
-![workspace](assets/images/lambda.png){title="Lambda"}
+![workspace](assets/images/lambda.png){title="The lambda block"}
 
 /// caption
-Fig. 1: The lambda block and binding.
+Fig. 1: The lambda block.
+///
+
+Naming a lambda block can be done by connecting the variable block with the lambda block.
+
+![workspace](assets/images/lambda-binding.png){title="Lambda binding with a name"}
+
+/// caption
+Fig. 2: Lambda binding with a name.
 ///
 
 === "SML"
@@ -20,16 +29,16 @@ Fig. 1: The lambda block and binding.
 
     ``` scala linenums="1"
     val mnl_say = (hello : String) => ("MNL: " + hello)
-    ```
+    
 
 ## The Function block
 
-MNL simplifies the construction by binding the lambda block with a name in one special declaration block called a function block.
+MNL simplifies the binding of the lambda block with the variable block in one special declaration block called a function block.
 
 ![workspace](assets/images/first_class_function_1.png){title="First class function"}
 
 /// caption
-Fig. 2: The function block
+Fig. 3: The function block
 ///
 
 === "SML"
@@ -44,7 +53,7 @@ Fig. 2: The function block
     ``` scala linenums="1"
     def greetings () : String = "Hello there"
     val say_it = greetings()
-    ```
+    ``````
 
 ## Example
 
@@ -53,7 +62,7 @@ Fig. 2: The function block
 ![workspace](assets/images/tail_function.png){title="Tail function"}
 
 /// caption
-Fig. 3: The tail function
+Fig. 4: The tail function
 ///
 
 === "SML"
@@ -85,7 +94,7 @@ The core language of MNL is the lambda calculus, which takes one parameter. Howe
 ![workspace](assets/images/function_simul_two_params_tuple.png){title="tuple"}
 
 /// caption
-Fig. 4: A tuple as the function parameter
+Fig. 5: A tuple as the function parameter
 ///
 
 === "SML"
@@ -112,7 +121,7 @@ Fig. 4: A tuple as the function parameter
 ![workspace](assets/images/function_simul_two_params_record.png){title="record"}
 
 /// caption
-Fig. 5: A record as the function parameter
+Fig. 6: A record as the function parameter
 ///
 
 === "SML"

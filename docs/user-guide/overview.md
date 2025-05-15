@@ -71,7 +71,7 @@ Fig. 3: Horizontal input/output block
 Fig. 4: Vertical input/output + horizontal input block
 ///
 
-:material-numeric-1-circle: `Gear Icon`: show the add/remove block input toolbox.
+:material-numeric-1-circle: `Gear Icon`: show the add/remove input block toolbox.
 
 :material-numeric-2-circle: `Exclamation Mark Icon`: Debugger, shows the error message.
 
