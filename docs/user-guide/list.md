@@ -6,7 +6,7 @@ The list type is a container type with a collection of homogeneous member types.
 
 ### Empty list
 
-Constructing the empty list block by removing all members in the input block toolbox [[&#9881;](overview.md#block-anatomy)]
+Constructing an empty list block by removing all members in the input block toolbox [[&#9881;](overview.md#block-anatomy)].
 
 ![empty list](./assets/images/list_empty.png)
 

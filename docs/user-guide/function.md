@@ -1,11 +1,11 @@
 # The Function
 
-As in functional programming, MNL treats a function as a first-class citizen, meaning that it can be bound to names, passed as an argument, and returned from another function. There are two blocks of function in MNL: The function block and the lambda block. The lambda block is an expression block with a parameter and an expression, and the function block is a declarative block with an identifier (a name), a parameter, and an expression block.
+As in functional programming, MNL treats a function as a first-class citizen, meaning it can be bound to names, passed as an argument, and returned from another function. There are two blocks of function in MNL: The function block and the lambda block. The lambda block is an expression block with two input blocks: a parameter and an expression block. The function block is a declarative block with three input blocks: an identifier (a name), a parameter, and an expression block.
 
 
 ## The Lambda Block
 
-Lambda or anonymous function is a function without a name. Figures 1 to 4 show how to construct a lambda block.
+Lambda or anonymous function is a function without a name. Figure 1 is an incomplete lambda block and Figure 2 to 4 are examples of constructing a lambda block.
 
 ![workspace](assets/images/lambda_empty.png){title="Lambda"}
 
@@ -22,23 +22,15 @@ Fig. 2: The lambda block with the empty parameter and return a string
 ![workspace](assets/images/lamdba_hello.png){title="Lambda - hello"}
 
 /// caption
-Fig. 1: The lambda block with a string input and produce a string output
-///
-
-Giving a name to the lambda block can be done by constructing a variable block with the expression block is a lambda block.
-
-![workspace](assets/images/lambda_binding.png){title="Lambda - binding"}
-
-/// caption
-Fig. 1: The lambda block.
+Fig. 3: The lambda block with a string input and produce a string output
 ///
 
 Naming a lambda block can be done by connecting the variable block with the lambda block.
 
-![workspace](assets/images/lambda-binding.png){title="Lambda binding with a name"}
+![workspace](assets/images/lambda-binding.png){title="The lambda block binding with a name"}
 
 /// caption
-Fig. 2: Lambda binding with a name.
+Fig. 4: Lambda binding with a name.
 ///
 
 === "SML"
@@ -63,7 +55,7 @@ MNL simplifies the binding of the lambda block with the variable block in one sp
 ![workspace](assets/images/first_class_function_1.png){title="First class function"}
 
 /// caption
-Fig. 3: The function block
+Fig. 5: The function block
 ///
 
 === "SML"
@@ -78,7 +70,7 @@ Fig. 3: The function block
     ``` scala linenums="1"
     def greetings () : String = "Hello there"
     val say_it = greetings()
-    ``````
+    ```
 
 ## Example
 
@@ -87,7 +79,7 @@ Fig. 3: The function block
 ![workspace](assets/images/tail_function.png){title="Tail function"}
 
 /// caption
-Fig. 4: The tail function
+Fig. 6: The tail function
 ///
 
 === "SML"
@@ -119,7 +111,7 @@ The core language of MNL is the lambda calculus, which takes one parameter. Howe
 ![workspace](assets/images/function_simul_two_params_tuple.png){title="tuple"}
 
 /// caption
-Fig. 5: A tuple as the function parameter
+Fig. 7: A tuple as the function parameter
 ///
 
 === "SML"
@@ -127,9 +119,6 @@ Fig. 5: A tuple as the function parameter
     ``` sml linenums="1"
     (* SML does not support type inference for a tuple as a parameter. 
     Other ML languages may support the syntax below. *)
-    fun greetings (tpl) = (#1 (tpl)) ^ (#2 (tpl))
-    val greetings_1 = greetings(("Hello ", "World!"))
-    val greetings_2 = greetings(("World!", "Hello "))
     ```
 
 === "Scala"
@@ -146,7 +135,7 @@ Fig. 5: A tuple as the function parameter
 ![workspace](assets/images/function_simul_two_params_record.png){title="record"}
 
 /// caption
-Fig. 6: A record as the function parameter
+Fig. 8: A record as the function parameter
 ///
 
 === "SML"
@@ -154,15 +143,10 @@ Fig. 6: A record as the function parameter
     ``` sml linenums="1"
      (* SML does not support type inference for a record as a parameter. 
     Other ML languages may support the syntax below. *)
-    fun greetings (rcd) = ((#a (rcd)) ^ (#b (rcd)))
-    val greetings_1 = greetings({a = "Hello ", b = "World!"})
-    val greetings_2 = greetings({b = "World!", a = "Hello "})
     ```
 
 === "Scala"
 
     ``` scala linenums="1"
-    def greetings (rcd: record of {a : String and b : String}) : String = (/* Scala doesn't have primitive type of 'Record' */ + /* Scala doesn't have primitive type of 'Record' */)
-    val greetings_1 = greetings(/* Scala doesn't have primitive type of 'Record' */)
-    val greetings_2 = greetings(/* Scala doesn't have primitive type of 'Record' */)
+    /* Scala doesn't have primitive type of 'Record' */
     ```

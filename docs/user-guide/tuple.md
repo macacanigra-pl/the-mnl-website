@@ -1,10 +1,15 @@
 # Tuple
 
-The tuple type is a container type with a collection of heterogeneous member types. A tuple size is fixed and can not be empty.
+The tuple type is a container type with a collection of heterogeneous inhabitant types. A tuple size is fixed and can not be empty.
 
 ## Constructor
 
 ![workspace](assets/images/tuple_constructor.png){title="Tuple constructor"}
+
+/// caption
+Fig. 1: Tuple constructor
+///
+
 
 === "SML"
 
@@ -18,7 +23,11 @@ The tuple type is a container type with a collection of heterogeneous member typ
     (true, "is", 1)
     ```
 
-![workspace](assets/images/tuple_constructor_binding.png){title="Tuple constructor - binding"}
+![workspace](assets/images/tuple_constructor_binding.png){title="Binding a tuple"}
+
+/// caption
+Fig. 2: Binding a tuple
+///
 
 === "SML"
 
@@ -34,7 +43,13 @@ The tuple type is a container type with a collection of heterogeneous member typ
 
 ## Projection
 
+Projection is an operator that gets one tuple inhabitant at a specific location.
+
 ![workspace](assets/images/tuple_projection.png){title="Tuple projection"}
+
+/// caption
+Fig. 3: Tuple projection
+///
 
 === "SML"
 

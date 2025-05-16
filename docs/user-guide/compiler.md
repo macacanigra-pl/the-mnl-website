@@ -1,8 +1,8 @@
-# The Transpiler
+# The Compiler
 
-MNL has its own transpiler called YAKI (Yet Another [K/T]Transpiler Interface), which transforms block-based programming languages into text-based languages such as SML and Scala. Beyond the transpiling, YAKI was able to write a typing derivation of MNL.
+MNL has a compiler named YAKI (Yet Another [K/C]Compiler Interface), which transforms block-based programming languages into text-based languages such as SML and Scala. Beyond the compiling, YAKI was able to write a typing derivation of MNL.
 
-Right-click on the workspace and choose `Transpiler` to open the transpiler window. The combo box at the bottom allows users to select the target language.
+Accessing YAKI by right-click on the workspace and choose `Compiler` to open the transpiler window. The combo box at the bottom allows users to select the target language.
 
 ![transpiler-window](./assets/images/transpiler_window.png)
 

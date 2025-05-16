@@ -1,28 +1,15 @@
-## Return a function
-![workspace](assets/images/hof_return_a_function.png){title="HoF - return a function"}
+# The Higher-Order Function (HOF)
 
-=== "SML"
-
-    ``` sml linenums="1"
-      fun f_continuation (param_1) = fn (param_2) => fn (param_3) => (param_1 ^ (param_2 ^ param_3) )
-      val first_app = f_continuation("Hello ")
-      val second_app = first_app("World")
-      val the_result = second_app("!")
-    ```
-
-=== "Scala"
-
-    ``` scala linenums="1"
-      def f_continuation (param_1: String) : (String) => (String) => String = (param_2 : String) => (param_3 : String) => (param_1 + (param_2 + param_3) )
-      val first_app = f_continuation("Hello ")
-      val second_app = first_app("World")
-      val the_result = second_app("!")
-    ```
+A higher-order function (HOF) is a function that takes a function as an input parameter or returns a function as its result, or both.
 
 
 ## Function as a parameter
 
-![workspace](assets/images/list_fold.png){title="HoF - function as a param"}
+![workspace](assets/images/list_fold.png){title="A function as a parameter"}
+
+/// caption
+Fig. 1: A function as a parameter
+///
 
 === "SML"
 
@@ -45,3 +32,31 @@
     ``` scala linenums="1"
     /* Scala doesn't support type variable on lambda */
     ```
+
+
+## Return a function
+
+![workspace](assets/images/hof_return_a_function.png){title="Return a function"}
+
+/// caption
+Fig. 2: Return a function
+///
+
+=== "SML"
+
+    ``` sml linenums="1"
+      fun f_continuation (param_1) = fn (param_2) => fn (param_3) => (param_1 ^ (param_2 ^ param_3) )
+      val first_app = f_continuation("Hello ")
+      val second_app = first_app("World")
+      val the_result = second_app("!")
+    ```
+
+=== "Scala"
+
+    ``` scala linenums="1"
+      def f_continuation (param_1: String) : (String) => (String) => String = (param_2 : String) => (param_3 : String) => (param_1 + (param_2 + param_3) )
+      val first_app = f_continuation("Hello ")
+      val second_app = first_app("World")
+      val the_result = second_app("!")
+    ```
+

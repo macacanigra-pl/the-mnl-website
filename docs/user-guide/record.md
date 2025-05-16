@@ -1,5 +1,14 @@
+# Record
+
+A record is a data structure that consists of a fixed number of inhabitants, called fields. Every field has an identifier and an expression. In contrast with a tuple, a record field name is defined by users, but a field name in a tuple is implicitly defined with an ordered number.
+
 ## Constructor
+
 ![workspace](assets/images/record_constructor.png){title="Record constructor"}
+
+/// caption
+Fig. 1: Record constructor
+///
 
 === "SML"
 
@@ -13,7 +22,11 @@
     /* Scala doesn't have primitive type of 'Record' */
     ```
 
-![workspace](assets/images/record_constructor_binding.png){title="record constructor - binding"}
+![workspace](assets/images/record_constructor_binding.png){title="Record binding with a name"}
+
+/// caption
+Fig. 2: Binding a record constructor with a name
+///
 
 === "SML"
 
@@ -29,7 +42,13 @@
 
 ## Projection
 
-![workspace](assets/images/record_projection.png){title="record projection"}
+Projection is an operator that gets one field by a field name.
+
+![workspace](assets/images/record_projection.png){title="Record projection"}
+
+/// caption
+Fig. 3: Record projection
+///
 
 === "SML"
 
@@ -44,7 +63,11 @@
     /* Scala doesn't have primitive type of 'Record' */
     ```
 
-![workspace](assets/images/record_projection_binding.png){title="record projection"}
+![workspace](assets/images/record_projection_binding.png){title="Application of record projection over a bound variable"}
+
+/// caption
+Fig. 4: Application of record projection over a bound variable.
+///
 
 === "SML"
 
