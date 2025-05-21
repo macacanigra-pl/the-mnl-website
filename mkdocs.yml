@@ -106,13 +106,13 @@ nav:
   - Survey: "https://google.com"
 
 plugins:
-  - search:
-      min_search_length: 3
-      indexing: "full"
+  - search
+      # min_search_length: 3
+      # indexing: "full"
   - offline
-  # - social
-  - tags:
-      tags_file: user-guide/tags.md"
+  - social
+  - tags
+      # tags_file: user-guide/tags.md"
 
 extra:
   homepage: https://macacanigra-pl.github.io/mnl/
@@ -140,6 +140,7 @@ markdown_extensions:
   - pymdownx.keys
   - pymdownx.mark
   - pymdownx.tilde
+  - pymdownx.smartsymbols
   - toc:
       permalink: true
   - pymdownx.highlight:
