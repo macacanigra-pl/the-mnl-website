@@ -1,8 +1,8 @@
 # The Compiler
 
-MNL has a compiler named YAKI (Yet Another [K/C]Compiler Interface), which transforms block-based programming languages into text-based languages such as SML and Scala. Beyond the compiling, YAKI was able to write a typing derivation of MNL.
+MNL has a compiler named YAKI (Yet Another [K/C]Compiler Interface). It transforms block-based programming languages into text-based languages such as SML and Scala. Beyond compiling, YAKI could write a typing derivation of MNL.
 
-Accessing YAKI by right-click on the workspace and choose `Compiler` to open the transpiler window. The combo box at the bottom allows users to select the target language.
+Users can access YAKI by right-clicking on the workspace and choosing `Compiler` to open the transpiler window. The combo box at the bottom allows users to select the target language.
 
 ![transpiler-window](./assets/images/transpiler_window.png)
 
@@ -38,4 +38,3 @@ Fig. 2: The identity function
     ``` scala title="identity_function.scala" linenums="1"
     def f_identity [B] (a : B) : B = a 
     ```
-

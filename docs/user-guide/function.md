@@ -1,11 +1,11 @@
 # The Function
 
-As in functional programming, MNL treats a function as a first-class citizen, meaning it can be bound to names, passed as an argument, and returned from another function. There are two blocks of function in MNL: The function block and the lambda block. The lambda block is an expression block with two input blocks: a parameter and an expression block. The function block is a declarative block with three input blocks: an identifier (a name), a parameter, and an expression block.
+As in functional programming, MNL treats a function as a first-class citizen, meaning it can be bound to names, passed as an argument, and returned from another function. MNL has two types of function blocks: The function block and the lambda block. 
+The lambda block is an expression block that takes two inputs: a parameter and an expression block. On the other hand, the function block is a declarative block that consists of three inputs: an identifier (a name), a parameter, and an expression block.
 
 
 ## The Lambda Block
-
-Lambda or anonymous function is a function without a name. Figure 1 is an incomplete lambda block and Figure 2 to 4 are examples of constructing a lambda block.
+A lambda function, also known as an anonymous function, is a function that does not have a name. Figure 1 shows an incomplete lambda block, while Figures 2 to 4 provide examples of how to construct a lambda block.
 
 ![workspace](assets/images/lambda_empty.png){title="Lambda"}
 
@@ -25,7 +25,7 @@ Fig. 2: The lambda block with the empty parameter and return a string
 Fig. 3: The lambda block with a string input and produce a string output
 ///
 
-Naming a lambda block can be done by connecting the variable block with the lambda block.
+Naming a lambda block can be achieved by connecting the variable block with the lambda block.
 
 ![workspace](assets/images/lambda-binding.png){title="The lambda block binding with a name"}
 
@@ -50,7 +50,7 @@ Fig. 4: Lambda binding with a name.
 
 ## The Function block
 
-MNL simplifies the binding of the lambda block with the variable block in one special declaration block called a function block.
+MNL simplifies the connection between the lambda block and the variable block within a single declaration block known as a function block.
 
 ![workspace](assets/images/first_class_function_1.png){title="First class function"}
 
@@ -104,7 +104,7 @@ Fig. 6: The tail function
 
 ### Two or more parameters
 
-The core language of MNL is the lambda calculus, which takes one parameter. However, MNL can take two or more inputs as parameters using a tuple or a record. The examples below show how to group two inputs as one parameter.
+The core language of MNL is the lambda calculus, which takes one parameter. However, MNL can use a tuple or a record to accommodate two or more inputs as parameters. The examples below illustrate how to group two inputs into a single parameter.
 
 #### Tuple
 

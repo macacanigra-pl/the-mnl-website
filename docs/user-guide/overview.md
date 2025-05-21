@@ -2,7 +2,7 @@
 
 ## Workspace
 
-The MnL workspace is devided into three parts: Menu, Toolbox and Top-level block, and Playground.
+The MnL workspace is divided into Menu, Toolbox and Top-level block, and Playground.
 
 ![workspace](assets/images/workspace_light.png#only-light)
 ![workspace](assets/images/workspace_dark.png#only-dark)
@@ -13,13 +13,13 @@ Fig. 1: Workspace
 
 ### Menu
 
-:material-numeric-1-circle: `File`: start a new workspace, save and download blocks on the playground, or upload and load blocks into playground.
+:material-numeric-1-circle: `File`: start a new workspace, save and download blocks on the Playground, or upload and load blocks into the Playground.
 
-:material-numeric-2-circle: `Theme`: change the theme of workspace to dark or light mode.
+:material-numeric-2-circle: `Theme`: change the workspace theme to dark or light mode.
 
-:material-numeric-3-circle: `Basic Example`: load basic examples such as the identity function, the recursive function, etc.
+:material-numeric-3-circle: `Basic Example`: load basic examples such as the identity and recursive functions, etc.
 
-:material-numeric-4-circle: `Advanced Example`: load advanced example such as the filter, fold, or fmap function.
+:material-numeric-4-circle: `Advanced Example`: load an advanced example such as the filter, fold, or fmap function.
 
 :material-numeric-5-circle: `Program Visualization and Transpiler`: show/ hide window of the function value, beta reduction, or transpiler.
 
@@ -40,7 +40,7 @@ Fig. 1: Workspace
 
 :material-alpha-a-circle: `Trash`: hold all deleted blocks.
 
-:material-alpha-b-circle: `Zoom in/out`: Zoom in/ out the play area.
+:material-alpha-b-circle: `Zoom in/out`: Zoom in/ out of the play area.
 
 :material-alpha-c-circle: `Rest`: reset the play area position.
 
@@ -75,7 +75,7 @@ Fig. 4: Vertical input/output + horizontal input block
 
 :material-numeric-2-circle: `Exclamation Mark Icon`: Debugger, shows the error message.
 
-:material-numeric-3-circle: `Question Mark Icon`: The Info, shows the block information: block category, type, and value.
+:material-numeric-3-circle: `Question Mark Icon`: The Info shows the block information: block category, type, and value.
 
 :material-numeric-4-circle: `Suggestion Box Color`: shows the colors of blocks that can be connected.
 
@@ -83,10 +83,10 @@ Fig. 4: Vertical input/output + horizontal input block
 
 :material-numeric-6-circle: `The Output Notch`: used as a hook to another block.
 
- 
-### Add/Remove Input 
 
-The number of input block on some blocks can be adjust dynamically using add/remove toolbox or add/remove icon.
+## Add/Remove Input 
+
+The number of input blocks on some blocks can be adjusted dynamically using the add/remove toolbox or add/remove icon.
 
 ![workspace](assets/images/add_input_dark.png#only-dark)
 ![workspace](assets/images/add_input_light.png#only-light)
@@ -101,9 +101,9 @@ Fig. 5: Add/remove input toolbox
 Fig. 6: Add/remove input using icon
 ///
 
-### Block Info
+## Block Info
 
-The Info shows block information such as block category based on the grammar, term type, and value. [tester](getting-started.md#just-drag-drop-and-attach-the-block)
+The Info shows block information such as block category based on the grammar, value type (term type), and value.
 
 ![workspace](assets/images/type_n_value_info_dark.png#only-dark)
 ![workspace](assets/images/type_n_value_info_light.png#only-light)
@@ -112,15 +112,19 @@ The Info shows block information such as block category based on the grammar, te
 Fig. 7: The Info
 ///
 
+### The Shape and Color
+
+The shape of the input/output notch of the block represents the non-terminal of the grammar. The block color represents the term type, such as blue for function, yellow for number, etc..
+
 ### Debugger
 
 <div class="annotate" markdown>
 
-The debugger shows the requirement that must be fulfilled to make a complete block (1), or the term-type error.
+The debugger shows the requirement to make a complete block (1) or the term-type error.
 
 </div>
 
-1.  :man_raising_hand: A complete block is a block with all requirements fulfilled, ex.: The Info.
+1. :man_raising_hand: A complete block is a block with all requirements fulfilled, ex.: The Info.
 
 ![workspace](assets/images/debuger_dark.png#only-dark)
 ![workspace](assets/images/debuger_light.png#only-light)
@@ -128,4 +132,3 @@ The debugger shows the requirement that must be fulfilled to make a complete blo
 /// caption
 Fig. 8: Debugger
 ///
-

@@ -1,12 +1,12 @@
 # The List
 
-The list type is a container type with a collection of homogeneous member types. A list can be empty or non-empty.
+A list is a container with a collection of items of the same type. It can either be empty or contain one or more items.
 
 ## Constructing the list
 
 ### Empty list
 
-Constructing an empty list block by removing all members in the input block toolbox [[&#9881;](overview.md#block-anatomy)].
+Constructing an empty list block, simply remove all members from the input block toolbox [[&#9881;](overview.md#block-anatomy)].
 
 ![empty list](./assets/images/list_empty.png)
 
@@ -91,7 +91,7 @@ Fig. 4: Connecting the non-empty list block to the variable block
 
 ### is empty
 
-To check whether the list is empty or not. Returning true when the is empty, otherwise is false.
+To check whether the list is empty, return true when it is empty; otherwise, return false.
 
 ![is empty - true](./assets/images/list_is_empty_true.png)
 
@@ -131,7 +131,7 @@ Fig. 6: The is-empty block operator with the non-empty list block
 
 ### head
 
-Returning the first inhabitant of the list.
+Retrieve the first inhabitant from the list. 
 
 ![empty list](./assets/images/list_head.png)
 
@@ -154,7 +154,7 @@ Fig. 7: The head list operator block
 
 ### tail
 
-Returning the inhabitants of the list, starting from the second to the last inhabitant.
+Obtain the inhabitants of the list, starting from the second inhabitant to the last one.
 
 ![empty list](./assets/images/list_tail.png)
 

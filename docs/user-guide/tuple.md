@@ -1,6 +1,6 @@
 # Tuple
 
-The tuple type is a container type with a collection of heterogeneous inhabitant types. A tuple size is fixed and can not be empty.
+A tuple is a container with a collection of inhabitants with the same or different term types. Its size is fixed, and it cannot be empty.
 
 ## Constructor
 
@@ -43,7 +43,7 @@ Fig. 2: Binding a tuple
 
 ## Projection
 
-Projection is an operator that gets one tuple inhabitant at a specific location.
+Projection is an operator that retrieves one element from a tuple at a specific location.
 
 ![workspace](assets/images/tuple_projection.png){title="Tuple projection"}
 

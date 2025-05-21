@@ -1,6 +1,6 @@
 # The Higher-Order Function (HOF)
 
-A higher-order function (HOF) is a function that takes a function as an input parameter or returns a function as its result, or both.
+A higher-order function (HOF) is a function that can take another function as an input (parameter) or return a function as its output, or both.
 
 
 ## Function as a parameter

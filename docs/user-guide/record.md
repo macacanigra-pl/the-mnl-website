@@ -1,6 +1,6 @@
 # Record
 
-A record is a data structure that consists of a fixed number of inhabitants, called fields. Every field has an identifier and an expression. In contrast with a tuple, a record field name is defined by users, but a field name in a tuple is implicitly defined with an ordered number.
+A record is a data structure that comprises a fixed number of fields. Each field has an identifier and an associated expression. In contrast with a tuple, where the names of the fields are implicitly assigned based on their order, a record allows users to define the names of its fields.
 
 ## Constructor
 
@@ -42,7 +42,7 @@ Fig. 2: Binding a record constructor with a name
 
 ## Projection
 
-Projection is an operator that gets one field by a field name.
+Projection is an operator that retrieves a specific field using its name.
 
 ![workspace](assets/images/record_projection.png){title="Record projection"}
 

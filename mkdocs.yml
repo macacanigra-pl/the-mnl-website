@@ -92,6 +92,7 @@ nav:
   - Learn MNL:
       - Overview: "user-guide/overview.md"
       - Getting Started: "user-guide/getting-started.md"
+      - Type Inference: "user-guide/type-inference.md"
       - Type Suggestion: "user-guide/type-suggestion.md"
       - Compiler: "user-guide/compiler.md"
       - Program Visualization: "user-guide/program-visualization.md"
@@ -100,7 +101,6 @@ nav:
       - Tuple: "user-guide/tuple.md"
       - Record: "user-guide/record.md"
       - Higher order Function: "user-guide/hof.md"
-      - Type Inference: "user-guide/type-inference.md"
   - The MNL: "https://macacanigra-pl.github.io/mnl/"
   - About: "about.md"
   - Survey: "https://google.com"
