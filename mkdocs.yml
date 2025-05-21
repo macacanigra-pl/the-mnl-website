@@ -1,8 +1,8 @@
-site_name: Macaca Nigra Language
+site_name: Macaca Nigra Programming Language [MNL]
 site_url: https://macacanigra-pl.github.io/macacanigra-pl/
-site_description: Macaca Nigra Programming Language
+site_description: MNL is a Block-based Functional Programming Language
 repo_name: https://macacanigra-pl.github.io/mnl
-site_author: MnL
+site_author: MNL
 copyright: Copyright &copy; 2020 - 2025 MnL
 
 # pip install mkdocs-material
