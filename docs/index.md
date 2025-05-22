@@ -58,7 +58,7 @@ hide:
 
     ---
 
-    :octicons-arrow-right-24: [Currently MNL has a Yet Another [K/C]Compiler Interface a.k.a YAKI as a compiler from block to text based language such as SML or Scala.](user-guide/compiler.md)
+    :octicons-arrow-right-24: [MNL proudly presents a compiler, the Yet Another K/C Compiler Interface (YAKI). This powerful tool seamlessly transforms intuitive block-based programming languages into text-based languages like SML and Scala.](user-guide/compiler.md)
 
 -   :simple-compilerexplorer:{ .lg .middle .color-salmon } __Typing Rule__
 
