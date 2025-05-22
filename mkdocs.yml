@@ -1,4 +1,4 @@
-site_name: Macaca Nigra Programming Language [MNL]
+site_name: Macaca Nigra Programming Language
 site_url: https://macacanigra-pl.github.io/macacanigra-pl/
 site_description: MNL is a Block-based Functional Programming Language
 repo_name: https://macacanigra-pl.github.io/mnl
@@ -103,7 +103,7 @@ nav:
       - Higher order Function: "user-guide/hof.md"
   - The MNL: "https://macacanigra-pl.github.io/mnl/"
   - About: "about.md"
-  - Survey: "https://google.com"
+  # - Survey: "#"
 
 plugins:
   - search
@@ -122,6 +122,9 @@ extra:
     HTML5: html 
     JavaScript: js 
     CSS: css
+
+extra_css:
+  - assets/css/extra-color.css
 
 markdown_extensions:
   - attr_list

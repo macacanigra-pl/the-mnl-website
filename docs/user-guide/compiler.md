@@ -4,11 +4,6 @@ MNL has a compiler named YAKI (Yet Another [K/C]Compiler Interface). It transfor
 
 Users can access YAKI by right-clicking on the workspace and choosing `Compiler` to open the transpiler window. The combo box at the bottom allows users to select the target language.
 
-![transpiler-window](./assets/images/transpiler_window.png)
-
-/// caption
-Fig. 1: YAKI
-///
 
 
 ## Example: The Identity Function
@@ -17,10 +12,10 @@ Fig. 1: YAKI
     :man_raising_hand: The identity function is a function that returns the input value.
 
 
-![transpiler-block](./assets/images/transpiler_block_source.png)
+![transpiler-block](./assets/images/transpiler_block_source.png){title="the identity function"}
 
 /// caption
-Fig. 2: The identity function
+Fig. 1: The identity function
 ///
 
 === "Typing Derivation"

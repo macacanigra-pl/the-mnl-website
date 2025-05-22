@@ -124,7 +124,7 @@ The debugger shows the requirement to make a complete block (1) or the term-type
 
 </div>
 
-1. :man_raising_hand: A complete block is a block with all requirements fulfilled, ex.: The Info.
+1. :man_raising_hand: A complete block is a block with all requirements fulfilled, ex.: Fig.7 The Info.
 
 ![workspace](assets/images/debuger_dark.png#only-dark)
 ![workspace](assets/images/debuger_light.png#only-light)
